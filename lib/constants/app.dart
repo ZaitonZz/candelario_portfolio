@@ -24,7 +24,9 @@ class AppConstants {
 
   static const String textIntroduction = "I am a 2nd year Information Technology"
       " majoring in Information Security studying at University of Southeastern "
-  "Philippines. I have been programming in Android Studio with Java for quite a "
+  "Philippines. I like playing strategy games like the ones at Paradox"
+  " Interactive or TeamFightTactics under Riot Games in the League of Legends"
+  " Client. I have been programming in Android Studio with Java for quite a "
   "while, but now I am expanding my horizon to Flutter and other related"
   " technologies. I hope you enjoy my Flutter app!";
 

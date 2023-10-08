@@ -39,7 +39,7 @@ class PortfolioScreen extends StatelessWidget {
                         textAlign: TextAlign.center,
                       ),
                       const Text(
-                        'Welcome to my portfolio!',
+                        'Welcome to my Flutter App!',
                         style: TextStyle(fontSize: 18),
                         textAlign: TextAlign.center,
                       ),
@@ -47,7 +47,7 @@ class PortfolioScreen extends StatelessWidget {
 
                       const Text(
                         'Introduction',
-                        style: TextStyle(fontSize: 20),
+                        style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                         textAlign: TextAlign.center,
                       ),
                       const SizedBox(height: 10),
