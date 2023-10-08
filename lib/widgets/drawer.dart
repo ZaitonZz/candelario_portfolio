@@ -1,4 +1,7 @@
 import 'package:bootstrap_icons/bootstrap_icons.dart';
+import 'package:candelario_portfolio/screens/contact_us.dart';
+import 'package:candelario_portfolio/screens/home.dart';
+import 'package:candelario_portfolio/screens/resume.dart';
 import 'package:flutter/material.dart';
 import 'package:candelario_portfolio/widgets/drawer_tile.dart';
 
@@ -11,32 +14,29 @@ class DrawerWidget extends StatelessWidget {
       child: ListView(
         children: [
           DrawerTileWidget(
-            title: 'Tasks',
-            icon: BootstrapIcons.list_task,
+            title: 'Home',
+            icon: BootstrapIcons.house,
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => TaskIndexScreen()),
+                MaterialPageRoute(builder: (context) => PortfolioScreen()),
               );
             },
           ),
           DrawerTileWidget(
-            title: 'Users',
-            icon: BootstrapIcons.people,
+            title: 'Resume',
+            icon: BootstrapIcons.person_lines_fill,
             onTap: () {
               Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => UserIndexScreen()));
+                  MaterialPageRoute(builder: (context) => ResumeScreen()));
             },
           ),
           DrawerTileWidget(
-            icon: BootstrapIcons.power,
-            title: 'Logout',
+            icon: BootstrapIcons.phone,
+            title: 'Contact Me',
             onTap: () {
-              Navigator.pushAndRemoveUntil(
-                context,
-                MaterialPageRoute(builder: (context) => const LoginScreen()),
-                (route) => false,
-              );
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => ContactUsScreen()));
             },
           )
         ],

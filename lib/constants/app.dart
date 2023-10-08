@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 class AppConstants {
   //Colors
-  static const Color backgroundColor = Color(0xCFF1C8C8);
-  static const Color primaryColor = Color(0xFF900C3F);
-  static const Color thirdColor = Color(0xFFF8DE22);
+  static const Color backgroundColor = Color(0xFF393E46);
+  static const Color primaryColor = Color(0xFF00ADB5);
+  static const Color thirdColor = Color(0xFF222831);
 
   //PADDING, SPACING, BORDERS, TEXT SIZE
   static const double screenPadding = 20;
@@ -13,21 +13,20 @@ class AppConstants {
 
   static const double textFieldBorderRadius = 20;
 
-  static const primaryTextColor = Color(0xFF900C3F);
 
   static const textFieldBorderColor = Color(0xCF000000);
-  static const textFieldColor = Color(0xCFF1C8C8);
 
-  static const buttonColor = Color(0xFF900C3F);
-  static const buttonTextColor = Color(0xCFF1C8C8);
   static const double buttonTextSize = 15;
   static const double buttonPadding = 20;
   static const double buttonRadius = 20;
 
   static const double titleTextSize = 35;
 
-  static const appBarColor = Color(0xCFF1C8C8);
-  static const appBarTextColor = Color(0xFF900C3F);
+  static const String textIntroduction = "I am a 2nd year Information Technology"
+      " majoring in Information Security studying at University of Southeastern "
+  "Philippines. I have been programming in Android Studio with Java for quite a "
+  "while, but now I am expanding my horizon to Flutter and other related"
+  " technologies. I hope you enjoy my Flutter app!";
 
-  static const splashColor = Color(0xCFF1C8C8);
+
 }

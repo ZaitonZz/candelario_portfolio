@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tasker/constants/app.dart';
+import 'package:candelario_portfolio/constants/app.dart';
 
 class AppBarWidget extends StatelessWidget implements PreferredSizeWidget {
   final AppBar appBar;
@@ -13,14 +13,14 @@ class AppBarWidget extends StatelessWidget implements PreferredSizeWidget {
     required this.appBar,
     required this.title,
     this.actions,
-    this.bgColor = AppConstants.appBarColor,
-    this.prmColor = AppConstants.appBarTextColor,
+    this.bgColor = AppConstants.backgroundColor,
+    this.prmColor = AppConstants.primaryColor,
   });
 
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      title: Text(title),
+      title: Text(title, textAlign: TextAlign.center,),
       titleSpacing: 0,
       backgroundColor: bgColor,
       foregroundColor: prmColor,

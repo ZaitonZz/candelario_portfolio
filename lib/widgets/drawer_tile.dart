@@ -14,7 +14,7 @@ class DrawerTileWidget extends StatelessWidget {
       title: Text(
         title,
         style: const TextStyle(
-          color: AppConstants.primaryTextColor,
+          color: AppConstants.backgroundColor,
           fontWeight: FontWeight.bold,
         ),
       ),
@@ -22,7 +22,7 @@ class DrawerTileWidget extends StatelessWidget {
         icon,
         color: AppConstants.primaryColor,
       ),
-      splashColor: AppConstants.splashColor,
+      splashColor: AppConstants.backgroundColor,
       onTap: onTap,
     );
   }
