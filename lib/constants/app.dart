@@ -13,7 +13,6 @@ class AppConstants {
 
   static const double textFieldBorderRadius = 20;
 
-
   static const textFieldBorderColor = Color(0xCF000000);
 
   static const double buttonTextSize = 15;
@@ -22,13 +21,12 @@ class AppConstants {
 
   static const double titleTextSize = 35;
 
-  static const String textIntroduction = "I am a 2nd year Information Technology"
+  static const String textIntroduction =
+      "I am a 2nd year Information Technology"
       " majoring in Information Security studying at University of Southeastern "
-  "Philippines. I like playing strategy games like the ones at Paradox"
-  " Interactive or TeamFightTactics under Riot Games in the League of Legends"
-  " Client. I have been programming in Android Studio with Java for quite a "
-  "while, but now I am expanding my horizon to Flutter and other related"
-  " technologies. I hope you enjoy my Flutter app!";
-
-
+      "Philippines. I like playing strategy games like the ones at Paradox"
+      " Interactive or TeamFightTactics under Riot Games in the League of Legends"
+      " Client. I have been programming in Android Studio with Java for quite a "
+      "while, but now I am expanding my horizon to Flutter and other related"
+      " technologies. I hope you enjoy my Flutter app!";
 }

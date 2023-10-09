@@ -33,7 +33,7 @@ class DrawerWidget extends StatelessWidget {
           ),
           DrawerTileWidget(
             icon: BootstrapIcons.phone,
-            title: 'Contact Me',
+            title: 'Contact Details',
             onTap: () {
               Navigator.push(context,
                   MaterialPageRoute(builder: (context) => ContactUsScreen()));
